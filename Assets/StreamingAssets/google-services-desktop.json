@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "646258881726",
+    "firebase_url": "https://learnar-a214f.firebaseio.com",
+    "project_id": "learnar-a214f",
+    "storage_bucket": "learnar-a214f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646258881726:android:4acc4605a6be1be36a1aef",
+        "android_client_info": {
+          "package_name": "com.vikings.learnar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646258881726-gr9bcvrqjgh0o1hq0ttvstd9s9fppe7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpAPdsPgsaDXZd94ok9CGFnoNZ4sihpmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646258881726-gr9bcvrqjgh0o1hq0ttvstd9s9fppe7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
