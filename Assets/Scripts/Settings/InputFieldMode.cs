@@ -1,18 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿using UnityEngine;
+using UnityEngine.UI;
 public class InputFieldMode : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private ColorModeScript _colorModeScript;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        _colorModeScript = FindObjectOfType<ColorModeScript>();
+        _colorModeScript.colorChange += Change;
+    }
+    
+    void Change()
+    {
+        GetComponent<Image>().color = ColorModeScript.textField;
+        Debug.Log("Apply");
     }
 }

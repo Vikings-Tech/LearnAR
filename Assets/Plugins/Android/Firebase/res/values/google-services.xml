@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="firebase_database_url" translatable="false">https://learnar-a214f.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">646258881726</string>
+  <string name="google_storage_bucket" translatable="false">learnar-a214f.appspot.com</string>
+  <string name="project_id" translatable="false">learnar-a214f</string>
+  <string name="google_api_key" translatable="false">AIzaSyBpAPdsPgsaDXZd94ok9CGFnoNZ4sihpmc</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBpAPdsPgsaDXZd94ok9CGFnoNZ4sihpmc</string>
+  <string name="google_app_id" translatable="false">1:646258881726:android:4acc4605a6be1be36a1aef</string>
+  <string name="default_web_client_id" translatable="false">646258881726-gr9bcvrqjgh0o1hq0ttvstd9s9fppe7o.apps.googleusercontent.com</string>
+</resources>

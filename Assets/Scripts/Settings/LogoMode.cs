@@ -11,13 +11,7 @@ public class LogoMode : MonoBehaviour
         _colorModeScript.colorChange += Change;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-        
-    }
-
+    
     void Change()
     {
         GetComponent<Image>().sprite = ColorModeScript.logo;

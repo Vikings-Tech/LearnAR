@@ -7,5 +7,5 @@ public class ColorSettings
     public Sprite[] Logo;
     public Color[] modeColor;
     public Color[] textBoxColor;
-    
+    public Color[] textColor;
 }
